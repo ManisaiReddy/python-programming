@@ -115,3 +115,29 @@ mv[1] = 99
 print(ba)           # bytearray(b'\x01c\x03\x04\x05')
 
 
+import math
+print(math.pi)
+print(math.sqrt(4))
+import random
+print(random.choice([1.0,2.0,3.0]))
+name = 'Manisai'
+print(name)
+print(name[0])
+print(len(name))
+print(name[-1])
+print(name[0:3])
+print(name+'Reddy')
+print(name*2)
+# name[0]='A'
+print(name.find('ai'))
+print(name.replace('a','z'))
+
+substr = 'kaa,bbb,ccc,ddd'
+print(substr.split(','))
+print(substr.upper())
+print(substr.lower())
+print(substr.capitalize())
+print(name.isalpha())
+line = ' aaa,bbb,ccccc,dd '
+print(line.rstrip())
+print(dir(name))
