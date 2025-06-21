@@ -52,3 +52,37 @@ deptNo=deptName=dept= 102
 print(deptNo)
 print(deptName)
 print(dept)
+
+
+isOkay = False
+
+def makeHappy():
+    global isOkay
+    isOkay = True
+    print(isOkay)
+# print(makeHappy())
+makeHappy()
+print(isOkay)
+
+# value type
+a = 10
+b = a
+b = 30
+
+print(a)
+print(b)
+
+# reference type
+
+list1 = [1,2,4]
+list2 = list1
+list1.append(8)
+print(list1)
+print(list2)
+
+# shadowing built in 
+
+
+len = 10
+
+print(len("hello"))

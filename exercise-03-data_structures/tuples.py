@@ -1,0 +1,6 @@
+tuples = (1,2,3,4,5)
+print(tuples)
+print([tuples, tuples[1:]])
+print(tuples+tuples[:1])
+print(tuples.index(3))
+print(tuples.count(1))

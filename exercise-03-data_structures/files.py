@@ -1,0 +1,10 @@
+# f = open("data.txt", 'w')
+# f.write("Hello\n")
+# f.write("Hey Manisai, whatsup man?\nare you looking for a new job\nwilling to get good package with work life balance ")
+# f.close()
+f=open("data.txt")
+op = f.read()
+print(op.split())
+print(op)
+for line in open('data.txt'):       # Display lines in a file
+   print(line.rstrip())            # Single spaced (sans \n)
