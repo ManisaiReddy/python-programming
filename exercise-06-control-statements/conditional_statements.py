@@ -46,3 +46,16 @@ elif grade == 70:
     print("Got A+")
 elif grade >= 70:
     print("Got O")
+
+
+# nested if statements
+
+"""
+nested if statements : stements inside another if statements
+control over more complex conditions
+"""
+
+if grade>=70:
+    print("entered first if block")
+    if grade<70:
+        print("entered into nested")
